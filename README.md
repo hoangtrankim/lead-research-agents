@@ -6,6 +6,9 @@ Built with **LangGraph, Claude, Python, FastAPI, Next.js and TypeScript**.
 
 > Demo video: _add your Loom link here_ · Live demo: _add your URL here_
 
+> **Production version:** the [Lead Research Agent Starter Kit](https://kimhoang36.gumroad.com/l/lead-research-kit?utm_source=github&utm_medium=readme&utm_campaign=lead-research-agents) adds batch CSV in and out (hundreds of leads, stop, resume and retry), passwords for you and your team, a daily spend cap, Caddy HTTPS, backups, and a one-command AWS deploy (about $0.23 per lead).
+
+
 ## The agent graph
 
 ```mermaid
@@ -132,6 +135,21 @@ frontend/
 - Add a web search tool for news and funding signals beyond the company's own site.
 - Add a human approval step before the email is finalized (LangGraph interrupts).
 - Batch mode: upload a CSV of leads and export all emails.
+
+## Free version vs the production kit
+
+This repo is the free, open-source version: great for learning and demos. The [Lead Research Agent Starter Kit](https://kimhoang36.gumroad.com/l/lead-research-kit?utm_source=github&utm_medium=readme&utm_campaign=lead-research-agents) is the version you can put in front of real users or clients.
+
+| | This repo (free) | [Lead Research Agent Starter Kit](https://kimhoang36.gumroad.com/l/lead-research-kit?utm_source=github&utm_medium=readme&utm_campaign=lead-research-agents) |
+|---|---|---|
+| LangGraph researcher, writer and reviewer agents | ✅ | ✅ |
+| Batch CSV of leads in, emails out, stop/resume/retry |  | ✅ |
+| Admin and teammate passwords |  | ✅ |
+| Daily spend cap and `/usage` report |  | ✅ |
+| Production Docker Compose with Caddy HTTPS |  | ✅ |
+| One-command AWS deploy, backups, deploy check |  | ✅ |
+
+More production-ready Claude projects: [all starter kits](https://shipready-ai.github.io/?utm_source=github&utm_medium=readme&utm_campaign=lead-research-agents).
 
 ## License
 
